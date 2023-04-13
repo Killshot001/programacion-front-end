@@ -1,0 +1,20 @@
+{
+    "personas":[
+        {"nombre":"Pedro",
+        "apellido":"Soto",
+        "edad":"30"},
+        {"nombre":"Rodrigo",
+        "apellido":"Meza",
+        "edad":"20"},
+
+        {"nombre":"Felipe",
+        "apellido":"Cisterna",
+        "edad":"42"}, 
+
+        {"nombre":"Sebastian",
+        "apellido":"Anguita",
+        "edad":"25"}
+
+]
+
+}

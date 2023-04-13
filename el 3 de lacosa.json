@@ -1,0 +1,90 @@
+{
+    "sectores_residenciales": [
+      {
+        "ubicacion": "Sector 1",
+        "condominios": [
+          {
+            "nombre": "Condominio 1",
+            "cantidad_casas": 50,
+            "areas_verdes": "Parque Central",
+            "tipos_casas": [
+              {
+                "nombre": "Casa Tipo 1",
+                "metros_cuadrados_construidos": 120,
+                "metros_cuadrados_terreno": 200,
+                "numero_estacionamientos": 2,
+                "pisos": 2,
+                "banos": 2,
+                "habitaciones": 3
+              },
+              {
+                "nombre": "Casa Tipo 2",
+                "metros_cuadrados_construidos": 150,
+                "metros_cuadrados_terreno": 250,
+                "numero_estacionamientos": 3,
+                "pisos": 1,
+                "banos": 3,
+                "habitaciones": 4
+              }
+            ]
+          },
+          {
+            "nombre": "Condominio 2",
+            "cantidad_casas": 30,
+            "areas_verdes": "Jardines Compartidos",
+            "tipos_casas": [
+              {
+                "nombre": "Casa Tipo 3",
+                "metros_cuadrados_construidos": 100,
+                "metros_cuadrados_terreno": 180,
+                "numero_estacionamientos": 1,
+                "pisos": 1,
+                "banos": 1,
+                "habitaciones": 2
+              },
+              {
+                "nombre": "Casa Tipo 4",
+                "metros_cuadrados_construidos": 90,
+                "metros_cuadrados_terreno": 150,
+                "numero_estacionamientos": 1,
+                "pisos": 1,
+                "banos": 1,
+                "habitaciones": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ubicacion": "Sector 2",
+        "condominios": [
+          {
+            "nombre": "Condominio 3",
+            "cantidad_casas": 40,
+            "areas_verdes": "Plaza Central",
+            "tipos_casas": [
+              {
+                "nombre": "Casa Tipo 5",
+                "metros_cuadrados_construidos": 110,
+                "metros_cuadrados_terreno": 190,
+                "numero_estacionamientos": 2,
+                "pisos": 1,
+                "banos": 2,
+                "habitaciones": 3
+              },
+              {
+                "nombre": "Casa Tipo 6",
+                "metros_cuadrados_construidos": 130,
+                "metros_cuadrados_terreno": 220,
+                "numero_estacionamientos": 2,
+                "pisos": 2,
+                "banos": 2,
+                "habitaciones": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

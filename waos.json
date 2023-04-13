@@ -1,0 +1,33 @@
+{
+     
+    "rut":"1.111.111-1",
+    "nombre":"joaquin carcamo",
+    "direccion":"calle falsa 1",
+    "ciudad":"osorno",
+    "tipo cliente":"persona",
+    "cuentas":[
+        {
+            "nro":11111111,
+            "saldo":200000,
+            "fecha apertura": new date(2020,0,20)
+            "tarjetas":[
+                {"nro":12345667,
+                "tipo":"Debito"
+             }
+                {"nro":12345677,
+                "tipo":"Credito MasterCard"
+
+             }
+
+
+            ]
+
+
+        }
+
+
+
+    ]
+
+
+}

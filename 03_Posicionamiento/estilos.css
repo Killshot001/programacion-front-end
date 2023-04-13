@@ -1,0 +1,65 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+
+.caja-morada {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: blueviolet;
+    border: 1px solid black; 
+}
+
+.caja-relativa {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: blue;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.caja-absoluta {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+
+p {
+    color: black;
+}
+
+.boton-flotante {
+    position: fixed;
+    right: 10px;
+    bottom: 40px;
+    padding: 10px 20px;
+    background-color: blue;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 5px 5px 5px 2px #ccc;
+}
+
+.caja-invisible {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: blueviolet;
+    visibility: hidden;
+}
+
+.caja-inexistente {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: blueviolet;
+    display: none;
+}
