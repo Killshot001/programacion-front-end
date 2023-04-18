@@ -1,0 +1,27 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rebeccapurple;
+    font-size: 28px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.fondo-morado  {
+    
+    background-color: rebeccapurple;
+    height: 60px;
+    width: 1532px;
+    box-shadow: 100px 100px 100px rgba(114, 89, 255, 0.2);
+    font-family: 'Segoe UI', sans-serif;
+    position: relative;
+
+}
+.caja-morada {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: rebeccapurple;
+
+}
