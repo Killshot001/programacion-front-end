@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        var nombre = "Luis Ignacio";
+        // alert("Hola " + nombre);
+        var num = 10;
+        // De izquierda a derecha, si detecta números, los suma.
+        // Una vez que encuentre un texto, de izquierda a derecha, todos los siguientes
+        // valores serán tratados como texto
+        //alert(10 + "" + num + 20 + 5 + 2 + 5);
+
+        var nota1 = 5;
+        var nota2 = 6;
+        var nota3 = 7;
+        /*
+        DIFERENCIAS CON PYTHON: el bloque if siempre pone entre paréntesis la expresión booleana
+        que determinará si el resultado es verdadero o falso.
+        Se usa && para preguntar por AND, y || para preguntar por OR.
+        También podemos hacer saltos de línea, y eso no necesariamente indica que estamos
+        programando una nueva línea. Aquí no afectan las tabulaciones ni los saltos de línea.
+        Finalmente, lo que sí determina el inicio de código dentro de un bloque como if o for,
+        son las llaves al comienzo y final del bloque.
+        */
+        /*
+        if ( nota1 >= 1 && nota1 <= 7 
+            && nota2 >= 1 && nota2 <= 7
+            && nota3 >= 1 && nota3 <= 7) {
+            var promedio = (nota1 + nota2 + nota3) / 3;
+            alert("Promedio: "+ promedio);
+        } else {
+            alert("Hay al menos una nota que no está dentro del rango")
+        }
+        */
+    //    La idea de usar else if es para ahorrarnos preguntas demás.. en este ejemplo
+    // basta con que 1 de las notas esté mal ingresada, para no seguir haciendo el cálculo
+        if (nota1 < 1 || nota1 > 7) {
+            alert("Nota 1 con valor ingresado no válido");
+        } else if (nota2 < 1 || nota2 > 7) {
+            alert("Nota 2 con valor ingresado no válido");
+        } else if (nota3 < 1 || nota3 > 7) {
+            alert("Nota 3 con valor ingresado no válido");
+        } else {
+            var promedio = (nota1 + nota2 + nota3) / 3;
+            alert("Promedio: "+ promedio);
+        }
+    </script>
+</body>
+</html>

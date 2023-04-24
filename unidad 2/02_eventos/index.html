@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <label>Nombre: </label>
+        <input type="text" id="nombre" />
+    </div>
+
+    <button onclick="saludo()">Saludar</button>
+
+    <script>
+        function saludo() {
+            // Si queremos manipular un elemento del DOM, siempre lo haremos a través
+            // del objeto document, que es el objeto padre de todo lo que hay en el HTML
+
+            // Para obtener un elemento por su ID, necesitamos previamente haberle asignado
+            // un ID en HTML, y aquí en JS buscar con el método getElementById()
+            var cajaNombre = document.getElementById("nombre").value;
+            // .value es una propiedad de un objeto obtenido por ID
+            alert(cajaNombre);
+        }
+    </script>
+</body>
+</html>

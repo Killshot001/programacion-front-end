@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora</title>
+    <script>
+      function calcular(operacion) {
+        var num1 = parseInt(document.getElementById("num1").value);
+        var num2 = parseInt(document.getElementById("num2").value);
+        var resultado;
+
+        if (operacion == "sumar") {
+          alert(resultado = num1 + num2);
+        } else if (operacion == "restar") {
+          alert(resultado = num1 - num2);
+        } else if (operacion == "multiplicar") {
+          alert(resultado = num1 * num2);
+        } else if (operacion == "dividir") {
+          alert(resultado = num1 / num2);
+        }
+
+        document.getElementById("resultado").innerHTML = resultado;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Calculadora</h1>
+    <label for="num1">Primer número:</label>
+    <input type=Number id="num1"><br><br>
+    <label for="num2">Segundo número:</label>
+    <input type=Number id="num2"><br><br>
+    <button onclick="calcular('sumar')">Sumar</button>
+    <button onclick="calcular('restar')">Restar</button>
+    <button onclick="calcular('multiplicar')">Multiplicar</button>
+    <button onclick="calcular('dividir')">Dividir</button><br><br>
+  </body>
+</html>
+
